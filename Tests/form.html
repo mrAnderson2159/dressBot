@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form action="index.html" method="post">
+      <fieldset>
+        <legend>Sign-up</legend>
+        <label for="name">Nome:</label>
+        <input type="text" name="nome" id="nome"><br>
+        <label for="cognome">Cognome:</label>
+        <input type="text" name="cognome" id="cognome"><br>
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password"><br>
+      </fieldset>
+      <input type="submit" value="Invio" id="submit">
+    </form>
+  </body>
+  <style media="screen">
+    body {
+      font-family: Arial, Verdana, sans-serif;
+    }
+
+    form {
+      width: 450px
+    }
+
+    fieldset {
+      width: 450px;
+      border: 2px inset blue;
+      padding: 20px;
+      font-size: 1.5em
+    }
+
+    legend {
+      text-align: right;
+    }
+
+    label {
+      width: 160px;
+      float: left;
+    }
+
+    #submit {
+      float: right;
+      border: 1px solid black;
+      border-radius: 5px;
+      width: 70px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 1em;
+      color: white;
+      background-color: black;
+    }
+
+    #submit:hover {
+      border: 1px solid cyan;
+      color: black;
+      background-color: cyan;
+    }
+  </style>
+</html>
