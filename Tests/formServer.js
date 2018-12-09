@@ -1,5 +1,3 @@
-const http = require('http');
-const fs = require('fs');
 const connect = require('connect');
 const serveStatic = require('serve-static');
 
