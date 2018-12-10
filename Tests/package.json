@@ -9,14 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "mocha": "^5.2.0",
     "zombie": "^6.1.4"
   },
   "dependencies": {
     "connect": "^3.6.6",
-    "mocha": "^5.2.0",
     "serve-static": "^1.13.2"
-  },
-  "scripts": {
-  "test": "node ./node_modules/mocha/bin/mocha"
   }
 }
