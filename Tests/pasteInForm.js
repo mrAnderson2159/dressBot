@@ -6,10 +6,9 @@ const browser = require('zombie');
 const mocha = require('mocha');
 
 const path = "./form.html"
-browser.localhost("http://localhost:10000", 10000)
+browser.localhost("http://localhost:10000/form.html", 10000)
 
 describe('User visits signup page', () => {
-  console.log(browser);
   const browser = new Browser();
   before((done) => {
     browser.visit('/form.html', done);
