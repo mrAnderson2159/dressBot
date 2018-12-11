@@ -8,4 +8,5 @@ const server = http.createServer((req, res) => {
     .map(x => x.slice(0, x.indexOf('=')).concat(' = ')
       .concat(x.slice(x.indexOf('=') + 1, x.length)))
     .join('\n'))).pipe(res)
+  console.log(req);
 }).listen(8000)

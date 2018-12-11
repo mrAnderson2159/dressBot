@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "connect": "^3.6.6",
+    "nightwatch": "^1.0.14",
     "serve-static": "^1.13.2",
     "through2-map": "^3.0.0"
   }
